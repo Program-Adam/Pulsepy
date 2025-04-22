@@ -34,6 +34,8 @@ Built with Python 3.11.8 and PyQt5.
 
 **Window Executable Creation:**
 
+  pyinstaller --onefile main.py --icon=icon.ico --distpath ./build/release/ --name Pulsepy.exe --noconsole
+
 
 **Linux AppImage Creation:**
 
