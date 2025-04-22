@@ -40,8 +40,8 @@ Built with Python 3.11.8 and PyQt5.
 **Linux AppImage Creation:**
 
 copy venv + main.py to AppDir 
+    
     cd pulsepy/AppDir
-
     mkdir build && \
     wget https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O ./build/appimagetool-x86_64.AppImage && \
     chmod +x ./build/appimagetool-x86_64.AppImage
