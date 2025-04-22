@@ -1,4 +1,4 @@
-🎵 **PyQt Music Player - Simple and Sweet** 🎵
+🎵 **Pulsepy - A Simple and Sweet One File Music PLayer** 🎵
 
 Enjoy your music with this straightforward, single-file PyQt5 player.
 
@@ -7,8 +7,11 @@ Enjoy your music with this straightforward, single-file PyQt5 player.
 
 **Features:**
 
-* Clean and intuitive interface.
-* [Future: Icons for a polished look!]
+* Clean and intuitive user interface.
+* Effortless playback of local music files.
+* Basic playback controls (play, pause, stop).
+* \[Future: Enhanced visual experience with integrated icons]
+
 
 **Downloads:**
 
