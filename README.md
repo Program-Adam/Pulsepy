@@ -39,18 +39,22 @@ Built with Python 3.11.8 and PyQt5.
 
 **Linux AppImage Creation:**
 
-    cd pulsepy/
+copy venv + main.py to AppDir 
+    cd pulsepy/AppDir
 
     mkdir build && \
     wget https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O ./build/appimagetool-x86_64.AppImage && \
     chmod +x ./build/appimagetool-x86_64.AppImage
 
-    ./build/linuxdeploy-x86_64.AppImage \
+    ARCH=x86_64 ./build/linuxdeploy-x86_64.AppImage \
       --appdir . \
       --desktop-file ./pulsepy.desktop \
       --icon-file ./icon.png \
       --output appimage && \
     mv PulsePy_Music_Player-x86_64.AppImage ./build/release/PulsePy-x86_64.AppImage
+
+
+
 
 **Credits:**
 
