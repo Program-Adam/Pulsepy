@@ -2,6 +2,8 @@
 
 Enjoy your music with this straightforward, single-file PyQt5 player.
 
+[preview.png]
+
 **Features:**
 
 * Clean and intuitive interface.
