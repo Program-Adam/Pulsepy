@@ -1,6 +1,6 @@
-🎵 **Pulsepy - A Simple and Sweet One File Music PLayer** 🎵
+🎵 **Pulsepy - A Simple and Sweet One File Music Player** 🎵
 
-Enjoy your music with this straightforward, single-file PyQt5 player.
+Enjoy your local music files with this straightforward PyQt5 player.
 
 ![Alt Text](./preview.png)
 
@@ -10,6 +10,10 @@ Enjoy your music with this straightforward, single-file PyQt5 player.
 * Clean and intuitive user interface.
 * Effortless playback of local music files.
 * Basic playback controls (play, pause, stop).
+* Different modes: Shuffle, Repeat One, Repeat All
+* Save/Load your playlists in a universal format
+* Playlist modification via drag & drop of the songs
+* Dynamic Equalizer
 * \[Future: Enhanced visual experience with integrated icons]
 
 
@@ -17,16 +21,19 @@ Enjoy your music with this straightforward, single-file PyQt5 player.
 
 * Ready-to-use builds: [Link to your releases](https://github.com/Program-Adam/Pulsepy/releases/tag/v1.0.0)
 
-**Under the Hood (for developers):**
-
-Built with Python 3.11.8 and PyQt5.
 
 **Quick Start (development):**
+
+Built with Python 3.11.8 and PyQt5.
 
     python3.11 -m venv .venv && \
     source .venv/bin/activate && \
     pip install -r requirements.txt && \
     python main.py
+
+
+**Window Executable Creation:**
+
 
 **Linux AppImage Creation:**
 
