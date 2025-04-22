@@ -2,7 +2,7 @@
 
 Enjoy your music with this straightforward, single-file PyQt5 player.
 
-[preview.png]
+[preview.png](preview.png)
 
 **Features:**
 
