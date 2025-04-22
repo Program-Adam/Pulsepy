@@ -2,7 +2,8 @@
 
 Enjoy your music with this straightforward, single-file PyQt5 player.
 
-[preview.png](preview.png)
+![Alt Text](./preview.png)
+
 
 **Features:**
 
@@ -19,8 +20,8 @@ Built with Python 3.11.8 and PyQt5.
 
 **Quick Start (development):**
 
-    python3.11 -m venv .env && \
-    source .env/bin/activate && \
+    python3.11 -m venv .venv && \
+    source .venv/bin/activate && \
     pip install -r requirements.txt && \
     python main.py
 
