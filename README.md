@@ -9,7 +9,7 @@ Enjoy your music with this straightforward, single-file PyQt5 player.
 
 **Downloads:**
 
-* Ready-to-use builds: [Link to your releases]
+* Ready-to-use builds: [Link to your releases](https://github.com/Program-Adam/Pulsepy/releases/tag/v1.0.0)
 
 **Under the Hood (for developers):**
 
