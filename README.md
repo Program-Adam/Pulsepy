@@ -34,7 +34,7 @@ Built with Python 3.11.8 and PyQt5.
 
 **Window Executable Creation:**
 
-  pyinstaller --onefile main.py --icon=icon.ico --distpath ./build/release/ --name Pulsepy.exe --noconsole
+  pyinstaller --onefile main.py --icon=icon.ico --distpath ./build/release/ --name Pulsepy.exe --noconsole --strip
 
 
 **Linux AppImage Creation:**
@@ -46,13 +46,14 @@ copy venv + main.py to AppDir
     wget https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O ./build/appimagetool-x86_64.AppImage && \
     chmod +x ./build/appimagetool-x86_64.AppImage
 
-    ARCH=x86_64 ./build/linuxdeploy-x86_64.AppImage \
+    ARCH=x86_64 ../build/linuxdeploy-x86_64.AppImage \
       --appdir . \
       --desktop-file ./pulsepy.desktop \
       --icon-file ./icon.png \
       --output appimage && \
     mv PulsePy_Music_Player-x86_64.AppImage ./build/release/PulsePy-x86_64.AppImage
 
+    ARCH=x86_64 ../build/appimagetool-x86_64.AppImage ./appimagetool-x86_64.AppImage --comp zstd --mksquashfs-opt -Xcompression-level --mksquashfs-opt 10 AppDir
 
 
 
